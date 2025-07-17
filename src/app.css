@@ -6,6 +6,8 @@
   --color-secondary: var(--secondary);
   --color-foreground: var(--foreground);
   --color-foreground-dimmed: var(--foreground-dimmed);
+  --color-glass: var(--glass);
+  --color-glass-border: var(--glass-border);
   --breakpoint-2xl: 90rem;
 }
 
@@ -15,12 +17,16 @@
   --secondary: #a7c3f2;
   --foreground: #f5f7fa;
   --foreground-dimmed: #cdddf5;
+  --glass: rgba(113, 110, 110, 0.25);
+  --glass-border: #535353;
+  --shadow: rgba(0, 0, 0, 0.25) 0 4px 4px 0;
 
   color: var(--foreground);
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -31,13 +37,14 @@ body {
   .cta {
     background: var(--accent);
     border-radius: 9999px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px 0;
+    box-shadow: var(--shadow);
     cursor: pointer;
     font-size: 1.25rem;
     font-weight: 500;
     height: 72px;
     padding-block: 24px;
     padding-inline: 12px;
+    text-align: center;
     transition: all 250ms ease-in-out;
     width: max-content;
 
@@ -45,25 +52,33 @@ body {
       background: var(--secondary);
     }
   }
-}
 
-.grid-system {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  min-height: 100dvh;
-  padding-inline: 16px;
-  padding-top: 20px;
-
-  @variant xl {
-    grid-template-columns: repeat(8, 1fr);
-    gap: 24px;
-    padding-inline: 40px;
+  .glass {
+    background-color: var(--glass);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--shadow);
   }
 
-  @variant 2xl {
-    grid-template-columns: repeat(12, 1fr);
-    gap: 32px;
-    padding-inline: 80px;
+  .grid-system {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    min-height: 100dvh;
+    padding-inline: 16px;
+    padding-block: 20px;
+
+    @variant xl {
+      grid-template-columns: repeat(8, 1fr);
+      gap: 24px;
+      padding-inline: 40px;
+      padding-block: 40px;
+    }
+
+    @variant 2xl {
+      grid-template-columns: repeat(12, 1fr);
+      gap: 32px;
+      padding-inline: 80px;
+    }
   }
 }
