@@ -86,6 +86,13 @@ body {
     --gap: 1rem;
     display: flex;
     gap: var(--gap);
+    mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      black 25%,
+      black 75%,
+      transparent 100%
+    );
     overflow: hidden;
     user-select: none;
   }

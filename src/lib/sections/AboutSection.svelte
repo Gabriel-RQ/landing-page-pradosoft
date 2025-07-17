@@ -6,7 +6,7 @@
   </h2>
 
   <h3
-    class="font-semibold uppercase text-4xl xl:text-5xl 2xl:text-6xl text-foreground-dimmed"
+    class="font-semibold uppercase text-4xl xl:text-5xl 2xl:text-6xl text-foreground-dimmed xl:w-8/10"
   >
     Desde 1991 prestando soluções de <i>software</i> para empresas do Médio alto
     uruguai
