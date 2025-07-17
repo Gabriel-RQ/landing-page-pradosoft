@@ -55,7 +55,7 @@ body {
 
   .glass {
     background-color: var(--glass);
-    backdrop-filter: blur(8px);
+    /* backdrop-filter: blur(8px); */
     border: 1px solid var(--glass-border);
     box-shadow: var(--shadow);
   }
@@ -79,6 +79,33 @@ body {
       grid-template-columns: repeat(12, 1fr);
       gap: 32px;
       padding-inline: 80px;
+    }
+  }
+
+  .marquee {
+    --gap: 0.5rem;
+    display: flex;
+    gap: var(--gap);
+    overflow: hidden;
+    user-select: none;
+  }
+
+  .marquee-content {
+    animation: scroll 25s linear infinite;
+    flex-shrink: 0;
+    gap: var(--gap);
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
     }
   }
 }
