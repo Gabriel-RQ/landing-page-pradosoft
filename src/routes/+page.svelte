@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { Footer } from "$lib/components";
   import {
     AboutSection,
     ContactSection,
@@ -14,4 +13,3 @@
 <PartnerSection />
 <AboutSection />
 <ContactSection />
-<Footer />

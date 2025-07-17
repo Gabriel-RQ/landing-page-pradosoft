@@ -36,7 +36,7 @@
   ];
 </script>
 
-<section class="grid-system grid-rows-[auto_1fr_auto]">
+<section id="parceiros" class="grid-system grid-rows-[auto_1fr_auto]">
   <div class="col-span-full">
     <h2
       class="font-bold mb-4 text-2xl xl:text-[40px] 2xl:text-5xl xl:text-center"

@@ -1,4 +1,5 @@
 <section
+  id="sobre"
   class="grid-system grid-rows-[repeat(3,auto)] relative *:z-10 *:col-span-full *:2xl:col-span-11"
 >
   <h2 class="font-bold uppercase text-5xl xl:text-8xl xl:w-1/2">

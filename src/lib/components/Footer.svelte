@@ -29,7 +29,7 @@
         rel="noreferrer"
         aria-label="Instagram"
       >
-        <i id="instagram"></i>
+        <i id="instagram" class="icon"></i>
       </a>
 
       <a
@@ -38,26 +38,10 @@
         rel="noreferrer"
         aria-label="Whatsapp"
       >
-        <i id="whatsapp"></i>
+        <i id="whatsapp" class="icon"></i>
       </a>
     </div>
   </div>
 
   <p class="text-center">&copy; Pradosoft 2025</p>
 </footer>
-
-<style>
-  i {
-    display: inline-block;
-    height: 56px;
-    width: 56px;
-  }
-
-  #instagram {
-    background: url("/img/instagram-logo.svg") no-repeat center center / cover;
-  }
-
-  #whatsapp {
-    background: url("/img/whatsapp-logo.svg") no-repeat center center / cover;
-  }
-</style>

@@ -1,16 +1,10 @@
 <script>
-  import { Header } from "$lib/components";
   import { CircleChevronDown } from "@lucide/svelte";
 </script>
 
-<section
-  id="home"
-  class="grid-system grid-rows-[auto_1fr] relative size-full *:z-10"
->
-  <Header />
-
+<section id="home" class="grid-system grid-rows-12 h-[1dvh] relative *:z-10">
   <div
-    class="col-span-full xl:col-span-6 xl:col-start-2 2xl:col-span-10 2xl:col-start-2"
+    class="col-span-full xl:col-span-6 xl:col-start-2 2xl:col-span-10 2xl:col-start-2 row-start-4 row-span-3"
   >
     <h2
       class="font-bold text-5xl xl:text-7xl 2xl:text-8xl uppercase text-balance wrap-anywhere xl:wrap-normal mb-11"
@@ -26,9 +20,9 @@
   </div>
 
   <div
-    class="flex flex-col gap-12 col-span-full xl:col-span-2 xl:col-start-4 2xl:col-span-4 2xl:col-start-5 mb-5 items-center"
+    class="flex flex-col gap-12 col-span-full xl:col-span-2 xl:col-start-4 2xl:col-span-4 2xl:col-start-5 mb-5 items-center -row-start-1"
   >
-    <button class="cta w-full">Conheça nosso trabalho</button>
+    <a href="#servicos" class="cta w-full">Conheça nosso trabalho</a>
     <CircleChevronDown class="size-12 animate-bounce" />
   </div>
 </section>

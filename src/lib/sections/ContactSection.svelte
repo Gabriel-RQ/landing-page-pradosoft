@@ -2,7 +2,10 @@
   import { SendHorizontalIcon } from "@lucide/svelte";
 </script>
 
-<section class="grid-system grid-rows-[repeat(2,max-content)] min-h-max">
+<section
+  id="contato"
+  class="grid-system grid-rows-[repeat(2,max-content)] min-h-max"
+>
   <div class="col-span-full">
     <h2
       class="font-bold uppercase text-[40px] xl:text-5xl 2xl:text-[64px] leading-11 mb-3"
