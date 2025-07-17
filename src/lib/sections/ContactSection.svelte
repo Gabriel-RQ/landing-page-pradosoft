@@ -1,5 +1,7 @@
 <script lang="ts">
   import { SendHorizontalIcon } from "@lucide/svelte";
+
+  let message = $state("");
 </script>
 
 <section
@@ -29,13 +31,18 @@
       <textarea
         id="message"
         class="w-full resize-none outline-none glass shadow-none rounded-lg p-2 mt-3 mb-1 h-60"
+        placeholder="Olá! Gostaria de informações sobre um sistema."
+        bind:value={message}
       ></textarea>
-      <button
+      <a
+        href="https://wa.me/5555996860397?text={encodeURIComponent(message)}"
+        rel="noreferrer"
+        target="_blank"
         class="cta rounded-lg w-full text-base flex gap-1 items-center justify-center"
       >
         Entrar em contato
         <SendHorizontalIcon class="size-6" />
-      </button>
+      </a>
     </div>
 
     <div>
