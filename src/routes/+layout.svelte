@@ -1,7 +1,10 @@
 <script lang="ts">
-	import '../app.css';
-	
-	let { children } = $props();
+  import { Header } from "$lib/components";
+  import "../app.css";
+
+  let { children } = $props();
 </script>
 
-{@render children()}
+<main>
+  {@render children()}
+</main>
