@@ -83,7 +83,7 @@ body {
   }
 
   .marquee {
-    --gap: 0.5rem;
+    --gap: 1rem;
     display: flex;
     gap: var(--gap);
     overflow: hidden;
