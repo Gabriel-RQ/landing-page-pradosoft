@@ -13,7 +13,7 @@
     class="col-span-full xl:col-span-6 xl:col-start-2 2xl:col-span-10 2xl:col-start-2"
   >
     <h2
-      class="font-bold text-5xl xl:text-7xl 2xl:text-8xl uppercase text-wrap wrap-anywhere xl:wrap-normal mb-11"
+      class="font-bold text-5xl xl:text-7xl 2xl:text-8xl uppercase text-balance wrap-anywhere xl:wrap-normal mb-11"
     >
       Soluções tecnológicas para sua empresa
     </h2>
