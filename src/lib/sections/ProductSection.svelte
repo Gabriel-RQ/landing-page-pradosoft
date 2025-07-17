@@ -39,13 +39,15 @@
 </script>
 
 <section class="grid-system grid-rows-[auto_1fr_auto]">
-  <div class="col-span-full xl:text-center">
-    <h2 class="font-bold mb-4 text-2xl xl:text-[40px] 2xl:text-5xl">
+  <div class="col-span-full">
+    <h2
+      class="font-bold mb-4 text-2xl xl:text-[40px] 2xl:text-5xl xl:text-center"
+    >
       Soluções criadas para otimizar processos, aumentar a produtividade e
       impulsionar resultados.
     </h2>
     <h3
-      class="font-semibold text-foreground-dimmed text-base xl:text-2xl 2xl:text-[32px]"
+      class="font-semibold text-foreground-dimmed text-base xl:text-2xl 2xl:text-[32px] text-center"
     >
       Módulos que resolvem seus problemas
     </h3>

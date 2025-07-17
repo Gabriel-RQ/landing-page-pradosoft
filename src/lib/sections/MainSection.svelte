@@ -35,7 +35,7 @@
 
 <style>
   section::before {
-    background: url("main-cover.png") no-repeat 30% 50% / cover;
+    background: url("img/main-cover.png") no-repeat 30% 50% / cover;
     content: "";
     inset: 0;
     opacity: 0.25;
