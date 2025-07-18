@@ -1,5 +1,21 @@
-<script>
+<script lang="ts">
+  import { typewriter } from "$lib";
   import { CircleChevronDown } from "@lucide/svelte";
+
+  const messages = [
+    "Comércio",
+    "Indústria",
+    "Mercados",
+    "Transportadoras",
+    "Lojas",
+  ];
+
+  let currentMessageIndex = $state(0);
+  const timeout = 2500;
+
+  setInterval(() => {
+    currentMessageIndex = (currentMessageIndex + 1) % messages.length;
+  }, timeout);
 </script>
 
 <section id="home" class="grid-system grid-rows-12 h-[1dvh] relative *:z-10">
@@ -12,11 +28,14 @@
       Soluções tecnológicas para sua empresa
     </h2>
 
-    <h3
-      class="font-medium text-4xl xl:text-5xl 2xl:text-6xl text-foreground-dimmed"
-    >
-      Comércio
-    </h3>
+    {#key currentMessageIndex}
+      <h3
+        class="font-medium text-4xl xl:text-5xl 2xl:text-6xl text-foreground-dimmed"
+        in:typewriter
+      >
+        {messages[currentMessageIndex]}
+      </h3>
+    {/key}
   </div>
 
   <div
