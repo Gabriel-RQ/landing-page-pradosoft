@@ -1,38 +1,66 @@
-# sv
+# 🚀 Landing Page da **Pradosoft**
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Este repositório contém o código-fonte da **landing page institucional** da empresa [Pradosoft](https://pradosoft.com.br), desenvolvida para a empresa.
 
-## Creating a project
+> 💡 Criada com **SvelteKit**, **TypeScript** e **TailwindCSS**  
+> 📦 Gerada como um **site estático**, com foco em performance e manutenibilidade.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```bash
-# create a new project in the current directory
-npx sv create
+## 🔗 Links úteis
 
-# create a new project in my-app
-npx sv create my-app
-```
+🌐 Página publicada:  
+👉 [https://pradosoft.com.br](https://pradosoft.com.br)
 
-## Developing
+🎨 Layout no Figma:  
+👉 [Acessar no Figma](https://www.figma.com/design/RvL5Adz6bl98klGp8QPLRo/Pradosoft?node-id=3-8&t=AtKw4MU5Jj3DPtH3-1)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+---
 
-```bash
-npm run dev
+## 🛠️ Tecnologias utilizadas
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- ⚡ **[SvelteKit](https://kit.svelte.dev/)** – Framework moderno e reativo para aplicações web
+- 🧠 **[TypeScript](https://www.typescriptlang.org/)** – Tipagem estática para maior segurança no desenvolvimento
+- 🎨 **[TailwindCSS](https://tailwindcss.com/)** – Utilitário de classes para criação de interfaces responsivas e modernas
 
-## Building
+---
 
-To create a production version of your app:
+## 📁 Estrutura do Projeto
 
 ```bash
-npm run build
+pradosoft-landing/
+├── src/
+│   ├── routes/         # Páginas e rotas da aplicação
+│   ├── lib/            # Componentes e funções reutilizáveis
+│   └── app.html        # HTML base do projeto
+├── static/             # Arquivos públicos (imagens, favicon etc.)
+├── svelte.config.js    # Configurações do SvelteKit
+├── tailwind.config.js  # Configurações do TailwindCSS
+└── tsconfig.json       # Configurações do TypeScript
 ```
 
-You can preview the production build with `npm run preview`.
+## ▶️ Como rodar localmente
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Gabriel-RQ/landing-page-pradosoft.git
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+## 📎 Licença
+
+Este repositório não possui uma licença definida. Para uso, modificação ou distribuição, entre em contato com os responsáveis legais da empresa ou com o autor do projeto.
+
+## 👤 Autor
+
+Este projeto foi desenvolvido por [Gabriel RQ](https://github.com/Gabriel-RQ) como parte de um trabalho para a empresa Pradosoft.
+
+Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato.
