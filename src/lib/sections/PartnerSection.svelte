@@ -3,20 +3,20 @@
 
   const partners = [
     "/img/partners/logo_abes.webp",
-    "/img/partners/logo_bonfanti.png",
-    "/img/partners/logo_lojaesportes.png",
-    "/img/partners/logo_piovesan.png",
-    "/img/partners/logo_trevisol.png",
-    "/img/partners/logo_cruzazul.png",
+    "/img/partners/logo_bonfanti.webp",
+    "/img/partners/logo_lojaesportes.webp",
+    "/img/partners/logo_piovesan.webp",
+    "/img/partners/logo_trevisol.webp",
+    "/img/partners/logo_cruzazul.webp",
   ];
 
   const partnersSmall = [
-    "/img/partners/logo_centenaria.png",
-    "/img/partners/logo_silva.png",
-    "/img/partners/logo_centertoy.png",
-    "/img/partners/logo_agapel.png",
-    "/img/partners/logo_dipesca.png",
-    "/img/partners/logo_kelly.png",
+    "/img/partners/logo_centenaria.webp",
+    "/img/partners/logo_silva.webp",
+    "/img/partners/logo_centertoy.webp",
+    "/img/partners/logo_agapel.webp",
+    "/img/partners/logo_dipesca.webp",
+    "/img/partners/logo_kelly.webp",
   ];
 
   const otherPartners = [

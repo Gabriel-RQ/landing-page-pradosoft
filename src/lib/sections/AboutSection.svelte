@@ -23,7 +23,7 @@
 
 <style>
   section::before {
-    background: url("img/about-cover.png") no-repeat right center / cover;
+    background: url("/img/about-cover.webp") no-repeat right center / cover;
     content: "";
     height: 100%;
     mask-image: linear-gradient(to right, transparent, black);

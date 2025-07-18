@@ -71,7 +71,7 @@
     : null} transition-colors duration-500 ease-in"
 >
   <a class="flex items-center select-none" href="#home">
-    <img src="/prado.png" alt="Logo da Pradosoft" class="h-[84px]" />
+    <img src="/prado.webp" alt="Logo da Pradosoft" class="h-[84px]" />
     <h1 class="font-bold text-xl xl:text-2xl">Pradosoft</h1>
   </a>
 
@@ -93,6 +93,7 @@
   <button
     class="xl:hidden place-self-start justify-self-end cursor-pointer"
     onclick={() => (isMenuOpen = true)}
+    aria-label="Abrir o menu"
   >
     <MenuIcon class="size-9" />
   </button>

@@ -48,7 +48,7 @@
 
 <style>
   section::before {
-    background: url("img/main-cover.png") no-repeat 30% 50% / cover;
+    background: url("/img/main-cover.webp") no-repeat 30% 50% / cover;
     content: "";
     inset: 0;
     opacity: 0.25;
